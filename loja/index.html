@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja - Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Roupas</h1>
+        <nav>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="carrinho.html">Ver Carrinho</a>
+        </nav>
+    </header>
+
+    <section class="produtos">
+        <div class="produto" id="Camisa Branca">
+            <img src="https://inspiringfans4takes.vteximg.com.br/arquivos/ids/196769-1000-1000/88549_024_60535-024_CAMISA-POLO-CLASSIC-BRANCO-MASCULINO-FIATWEAR-FIAT-60535-1.jpg?v=638622821611500000" alt="Produto 1">
+            <h3>Camisa Branca</h3>
+            <p>R$ 29,99</p>
+            <button onclick="adicionarAoCarrinho(1, 'Camisa Branca', 29.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" id="Camisa preta">
+            <img src="https://blacktarg.cdn.magazord.com.br/img/2025/03/produto/7617/regular-camiseta-0000-brilho-contraste-1-copiar-26.png?ims=fit-in/635x865/filters:fill(white)" alt="Produto 2">
+            <h3>Camisa preta</h3>
+            <p>R$ 49,99</p>
+            <button onclick="adicionarAoCarrinho(2, 'Camisa Preta', 49.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" id="Shorts Azul">
+            <img src="https://cdn.dooca.store/5075/products/short-azul-claro-correto.jpg?v=1627044337" alt="Produto 3">
+            <h3>Shorts Azul</h3>
+            <p>R$ 119,99</p>
+            <button onclick="adicionarAoCarrinho(3, 'Shorts Azul', 119.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" id="Shorts Preto">
+            <img src="https://cdn.vnda.com.br/bolovo/2024/02/27/10_27_23_994_10_2_8_801_1.png?v=1709040456" alt="Produto 4">
+            <h3>Shorts Preto</h3>
+            <p>R$ 39,99</p>
+            <button onclick="adicionarAoCarrinho(4, 'Shorts Preto', 39.99)">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/13b945b1e7.js" crossorigin="anonymous"></script>
+</body>
+</html>
